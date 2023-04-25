@@ -1,0 +1,56 @@
+/* 모달 클릭 버튼 */
+.Shopping_Card_button{
+    background-color: white;
+    float: left;
+    margin: 10px;
+    border : 5px solid;
+    border-radius: 30px;
+    border-image-source:  url(../IMAGE/Footer_car.png);
+    border-image-slice : 10 20;
+}
+
+/* 모달 디자인 */
+.Shopping_modal{
+    width: 500px;
+    height: 400px;
+     /* 최상단 위치 */
+    z-index: 99;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: white;
+    border : 5px solid;
+    border-image-source:  url(../IMAGE/Footer_car.png);
+    border-image-slice : 10 20;
+  }
+
+  /* 정보 */
+  .modal_TEXT{
+    padding : 10px;
+    color : red;
+  }
+
+  .modal_info{
+    padding : 20px;
+  }
+  
+  .modal_close_Button{
+    position : absolute;
+    right: 10px;
+    top: 10px;
+    border : none;
+    font-weight: 900;
+  }
+
+
+  .modal_UserInfo{
+    float:none;
+}
+
+.modal_UserInfo_UserName,.modal_UserInfo_UserPhone{
+    width : 70%;
+    margin-top: 10px;
+    margin-left: 10px;
+}

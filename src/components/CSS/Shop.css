@@ -1,0 +1,67 @@
+.Shopping_All{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.Shopping_Car_All{
+    width : 100%;
+    height: 200vh;
+    background-color: lightgray;
+    
+}
+
+.Shopping_Header{
+    width : 100%;
+    height: 100px;
+    background-color: black;
+    color : white;
+    padding : 30px;
+    border-bottom: 3px solid red;
+}
+
+.Shopping_Home{
+    text-decoration: none;
+    color : white;
+}
+
+.Shopping_Card{
+    background-color: aquamarine;
+    width : 17%;
+    height: 450px;
+    margin: 4%;
+    float: left ;
+}
+
+.Shopping_Car_Name{
+    background-color: skyblue;
+    height: 25%;
+    margin: 20px;
+    padding : 10px;
+}
+
+.Shopping_Car_Img{
+    width : 90%;
+}
+
+.Shopping_Card{
+    border : 10px solid;
+    border-radius: 30px;
+    border-image-source:  url(../IMAGE/Footer_car.png);
+    border-image-slice : 10 20;
+}
+
+.Shopping_UserInfo{
+    float: left;
+}
+
+.Shopping_UserInfo_UserName,.Shopping_UserInfo_UserPhone{
+    width : 40%;
+    
+}
+
+.Shopping_Mapping{
+    display: block;
+}

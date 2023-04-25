@@ -1,0 +1,100 @@
+.Footer_All{
+    width : 100%;
+    height: 500px;
+    background: url('../IMAGE/Footer_car.png');
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.Footer_div{
+
+    display: flex;
+    justify-content: center;
+    align-items :center;
+    
+}
+
+.Footer_Name{
+    width : 18%;
+    height: 200px;
+    margin : 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border-bottom : 5px solid rgb(249, 71, 255);
+}
+
+.Footer_Email{
+    width : 18%;
+    height: 200px;
+    margin : 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border-bottom : 5px solid rgb(249, 71, 255);
+}
+
+.Footer_Phone{
+    width : 18%;
+    height: 200px;
+    margin : 60px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    border-bottom : 5px solid rgb(249, 71, 255);
+}
+
+.Footer_Icons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding : 10px;
+    
+}
+.icon {
+    color : black;
+    background-color: white;
+    border-radius: 10px;
+    border : 2px solid rgb(249, 71, 255);
+    
+}
+.icon:hover{
+    scale : 1.4;
+    color : rgb(0, 132, 255);
+}
+.Footer_com{
+    width : 100%;
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Scroll_up{
+    color : white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Scroll_icon{
+    background-color: white;
+    color : white;
+    border: 2px solid rgb(249, 71, 255);
+    border-radius: 30px;
+}
+
+.Scroll_icon:hover{
+    scale : 1.3;
+}

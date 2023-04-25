@@ -1,0 +1,42 @@
+.Header_All{
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  border-bottom : 2px solid red;
+}
+
+.Nav_Brand{
+    font-weight: 900;
+    font-size: xx-large;
+    text-decoration : none;
+    display: inline-block;
+    align-items: flex-start;
+    margin : 40px 0px 0px 200px;
+    color : white;
+}
+
+.Header_Navbar {
+    list-style:none;
+    display: flex;
+    justify-content:flex-end;
+    
+}
+ 
+.nav-item {
+    float: left;
+    margin : 0px 150px 0px 100px;
+    color :white;
+}
+
+.nav-item2{
+    text-decoration: none;
+    color : white;
+}
+
+.KakaoLogin{
+    text-decoration : none;
+    color : white;
+}

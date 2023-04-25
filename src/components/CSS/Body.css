@@ -1,0 +1,107 @@
+/* main 첫화면 */
+.Main_First{
+  background : url(../IMAGE/Home.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding : 0px 60px;
+  border-radius: 10px;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;  
+}
+
+/* header */
+.Main_Header{
+  width: 100%;
+}
+
+/* 첫화면 text */
+.Main_Text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 450px;
+  font-size : 10ch;
+  color : white;
+}
+
+h1{
+  color : white;
+}
+
+.Main_Home_CarPic{
+  background : url(../IMAGE/Main_Home_car.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding : 0px 30px;
+  border-radius: 10px;
+  display: flex;
+
+  height: 1000px;
+  flex-direction: column;  
+}
+
+.CarPic_text{
+  margin: 170px 20px 20px 200px;
+  display: block;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+h5{
+  color : lightblue	;
+}
+.Main_Home_AboutUs{
+  display: flex;
+}
+
+.Main_Home_CarPic2{
+ 
+  display: flex;
+  justify-content: center;
+  align-items : center;
+  width : 100%;
+  height: 100%;
+  float : left;
+}
+
+.Main_Home_CarPic2_text, .Main_Home_CarPic3_text{
+  background-color: black;
+}
+
+.Main_Home_CarPic2_text{
+  padding : 18% 20% 16% 20%;
+}
+
+.Main_Home_CarPic3_text{
+  padding : 15% 13% 15% 13%;
+}
+
+
+
+
+.Main_Home_CarPic4{
+  background-color: white;
+  display : flex;
+  justify-content: center;
+  align-items: center;
+  width : 100%;
+  height: 850px;
+}
+.car4_img{
+  border-right : 5px solid rgb(20, 220, 246) ;
+}
+.Main_Home_CarDiv{
+  display: flex;
+  background-color: black;
+  width : 1200px;
+  float : left;
+  align-items: center;
+}
+
+.Main_Home_car4_text{
+  
+  padding : 20px;
+}

@@ -1,0 +1,117 @@
+/* 카드 전체 div */
+.Shopping_Car_All{
+    width : 100%;
+    background-color: white;
+}
+
+.search_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.Shopping_searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3%;
+    border : 5px solid;
+    border-image-source:  url(../IMAGE/Footer_car.png);
+    border-image-slice : 5 5 5 5;
+}
+
+.Shopping_contract{
+    background-color: white;
+    margin-left: 50px;
+    border : 3px solid;
+    border-image-source:  url(../IMAGE/Footer_car.png);
+    border-image-slice : 5 5 5 5;
+}
+
+/* 헤더 */
+.Shopping_Header{
+    width : 100%;
+    height: 100px;
+    background-color: black;
+    color : white;
+    padding : 30px;
+    border-bottom: 3px solid red;
+}
+
+.Shopping_Home{
+    text-decoration: none;
+    color : white;
+}
+
+.Shopping_Card{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width : 90%;
+    height: 220px;
+    float: left ;
+    border : 10px solid;
+    border-image-source:  url(../IMAGE/Footer_car.png);
+    border-image-slice : 5 5 10 5;
+}
+
+.Shopping_Car_Name{
+    border : 5px solid;
+    border-image-source:  url(../IMAGE/Footer_car.png);
+    border-image-slice : 10 10 10 20;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width : 20%;
+    height: 80%;
+    padding : 5px;
+
+}
+
+.shopping_infomation{
+    display: inline;
+    text-align: left;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 15px;
+    width: 30%;
+    background-color: white;
+    white-space: pre-wrap;
+    font-weight :900;
+}
+.Shopping_Car_Cost{ margin-top : 10px; color : red;}
+.Shopping_Car_Img{
+    margin-left : 5%;
+    width : 15%;
+    height: 80%;
+}
+
+.Shopping_Card_button_total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: left;
+    width : 25%;
+    
+}
+.Shopping_Card_button{
+    background-color: white;
+    width: 200px;
+    padding: 20%;
+    border : 5px solid;
+    border-radius: 30px;
+    border-image-source:  url(../IMAGE/Footer_car.png);
+    border-image-slice : 10 20;
+}
+
+
+.Shopping_Button{
+    margin : 10px;
+}
+
+
+
+
+

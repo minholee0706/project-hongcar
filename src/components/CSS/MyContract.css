@@ -1,0 +1,112 @@
+/* 전체 div */
+.MyContract_All{
+    justify-content: center;
+    align-items: center;
+}
+
+/* header div  */
+.Shopping_Header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* body div */
+.MyContract_Body{
+    width : 100%;
+    display: inline; 
+    justify-content: center;
+    align-items: center;
+}
+
+/* 헤더 밑 input box 와 list버튼 */
+.MyContract_Input{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.MyContract_searchbar,.MyContract_btnlist{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3%;
+    border : 5px solid;
+    border-image-source:  url(../IMAGE/Footer_car.png);
+    border-image-slice : 5 5 5 5;
+    margin : 30px;
+}
+/* ------------------------------------ */
+
+.MyContract_Card_Div{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* mapping 후 card div */
+.MyContract_Card{
+    
+    justify-content: center;
+    align-items: center;
+    width : 50%;
+    height: 100vh;
+    margin: 10px;
+    background-image: url(../IMAGE/CarContract.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border : 5px solid;
+    border-image-source:  url(../IMAGE/Footer_car.png);
+    border-image-slice : 5 5 5 5;
+    margin : 30px;
+}
+/* 계약서 카카오톡 userid */
+.MyContract_UserId{
+    margin-top : 13%;
+    margin-left: 10%;
+}
+/* 회사 입력란 div */
+.MyContract_Company{
+    display: flex;
+    width: 100%;
+    float: left;
+}
+/* 회사 이름 */
+.MyContract_Company_name{
+    margin-left: 25%;
+    margin-top: 2%;
+}
+/* 회사 등록번호 */
+.MyContract_Company_Cnum{
+    margin-top: 2%;
+    margin-left: 45%;
+}
+/* 회사 전화번호 */
+.MyContract_Company_PhonNum{
+    margin-top: 5.5%;
+    margin-left: 25%;
+}
+
+/* 구매자 이름 */
+.MyContract_UserName{
+    margin-top: 4.5%;
+    margin-left: 25%;
+}
+
+/* 구매자 핸드폰번호 */
+.MyContract_UserText{
+    margin-top: 1.5%;
+    margin-left: 25%;
+}
+
+/* 구매 차종 */
+.MyContract_UserCarName{
+    margin-top: 4.5%;
+    margin-left: 74%;
+}
+/* 구매 가격 */
+.MyContract_UserCarCost{
+    margin-top: 4%;
+    margin-left: 25%;
+}
